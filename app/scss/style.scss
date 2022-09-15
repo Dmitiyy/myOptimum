@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../font/Century_Gothic.ttf") format("ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Century Gothic";
+}
+
+@import './modules/_header-main.scss';
+@import './modules/_nav-main.scss';

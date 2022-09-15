@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../font/Century_Gothic.ttf") format("ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Century Gothic";
+}
+
+.header {
+  width: 1720px;
+  margin: 0 auto;
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-wrap {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../images/header_bg_main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header__logo-descr {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 70px;
+  font-size: 20px;
+  color: rgba(122, 122, 122, 0.81);
+}
+.header__reasons {
+  margin-left: 140px;
+}
+.header__reasons div + div {
+  margin-top: 20px;
+}
+.header__reasons div {
+  display: block;
+  display: table;
+  padding: 33px;
+  width: auto;
+  background: rgba(228, 228, 228, 0.43);
+  border-radius: 16px 16px 16px 0px;
+  font-weight: 400;
+  font-size: 18px;
+  transition: all 0.2s;
+  color: #000000;
+}
+.header__reasons div:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 47px 80px rgba(125, 125, 125, 0.07), 0px 30.463px 46.8519px rgba(125, 125, 125, 0.0531481), 0px 18.1037px 25.4815px rgba(125, 125, 125, 0.0425185), 0px 9.4px 13px rgba(125, 125, 125, 0.035), 0px 3.82963px 6.51852px rgba(125, 125, 125, 0.0274815), 0px 0.87037px 3.14815px rgba(125, 125, 125, 0.0168519);
+  border-radius: 14px;
+}
+.header-down {
+  margin: 30px auto;
+  display: block;
+}
+
+.header-wrap .nav {
+  width: 1720px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-wrap .nav__menu {
+  list-style: none;
+  display: flex;
+}
+.header-wrap .nav__menu li + li {
+  margin-left: 50px;
+}
+.header-wrap .nav__menu li {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(22, 22, 22, 0.49);
+  cursor: pointer;
+}
+.header-wrap .nav-phone {
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: rgba(22, 22, 22, 0.8);
+  font-weight: 400;
+  font-size: 25px;
+}
+.header-wrap .nav-btn {
+  width: 200px;
+  height: 76px;
+  background: #EE964B;
+  border: 1px solid #EE964B;
+  box-shadow: 10px 10px 50px rgba(238, 150, 75, 0.51);
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #161616;
+  font-family: "Century Gothic";
+  cursor: pointer;
+}
